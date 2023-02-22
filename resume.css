@@ -847,7 +847,7 @@ body {
 
 #document.skn-mlf6 .parentContainer .experience .firstparagraph:before,
 #document.skn-mlf6 .parentContainer .education .firstparagraph:before {
-    top: 4px
+    top: 6px
 }
 
 #document.skn-mlf6 .firstparagraph .sectiontitle {
@@ -1390,5 +1390,9 @@ body {
 }
 
 .top-18::before {
-    top: 18px!important;
+    top: 20px!important;
+}
+
+.top-21::before {
+    top: 21px!important;
 }
