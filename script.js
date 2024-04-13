@@ -1,3 +1,9 @@
+// Redirect to sahildhingra.in
+if (window.location.hostname !== "sahildhingra.in") {
+  window.location.href = "https://sahildhingra.in";
+}
+
+// Header Sticky
 let lastScrollPos = 0;
 window.addEventListener('scroll', function() {
   const currentScrollPos = window.scrollY;
@@ -22,6 +28,7 @@ window.addEventListener('scroll', function() {
   lastScrollPos = currentScrollPos;
 });
 
+// Toggled Sidebar Mobile
 function toggleSidebar() {
   document.querySelector('.hamburger-icon').classList.toggle('toggled');
   document.querySelector('.nav').classList.toggle('active');
@@ -33,6 +40,7 @@ function toggleSidebar() {
   }
 }
 
+// Redirect to sections on the same page
 function redirectTo(url) {
   document.body.style.overflow = 'auto';
   document.querySelector('.hamburger-icon').classList.toggle('toggled');
