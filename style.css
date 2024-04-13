@@ -619,12 +619,13 @@ section {
   }
 
   .hero-banner {
-    padding-top: 120px;
+    padding-top: 80px;
     padding-bottom: 80px;
   }
 
   .banner-wrapper {
     padding: 0;
+    width: 100%;
   }
 
   .cards-wrapper {
@@ -636,6 +637,11 @@ section {
     box-shadow: unset;
     padding-left: 0;
     padding-right: 0;
+  }
+
+  .card-item img {
+    margin-bottom: 16px;
+    height: 53px;
   }
 
   .cards-wrapper .card-item:nth-child(2), .cards-wrapper .card-item:nth-child(3) {
@@ -656,7 +662,7 @@ section {
   }
 
   .work-item {
-    padding: 50px 0 50px;
+    padding: 40px 0 40px;
   }
 
   .work-item-overview {
@@ -805,11 +811,19 @@ section {
   .contact-info {
     flex-direction: column;
     gap: 30px;
-    text-align: center;
-    padding-top: 30px;
+    padding-top: 40px;
   }
 
   .contact-info a {
     text-decoration: none;
+  }
+
+  .contact-item {
+    gap: 10px;
+  }
+
+  .contact-item img {
+    height: 20px;
+    width: 20px;
   }
 }
