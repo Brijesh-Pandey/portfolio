@@ -25,4 +25,17 @@ window.addEventListener('scroll', function() {
 function toggleSidebar() {
   document.querySelector('.hamburger-icon').classList.toggle('toggled');
   document.querySelector('.nav').classList.toggle('active');
+
+  if (document.querySelector('.nav').classList.contains('active')) {
+    document.body.style.overflow = 'hidden';
+  } else {
+    document.body.style.overflow = 'auto';
+  }
+}
+
+function redirectTo(url) {
+  document.body.style.overflow = 'auto';
+  document.querySelector('.hamburger-icon').classList.toggle('toggled');
+  document.querySelector('.nav').classList.toggle('active');
+  window.location.href = url;
 }
