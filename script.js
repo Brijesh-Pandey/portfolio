@@ -1,11 +1,11 @@
-// Redirect to sahildhingra.in
-if (window.location.hostname !== "sahildhingra.in") {
-  window.location.href = "https://sahildhingra.in";
+
+if (window.location.hostname !== "brijesh.me") {
+  // window.location.href = "https://brijesh.me";
 }
 
 // Header Sticky
 let lastScrollPos = 0;
-window.addEventListener('scroll', function() {
+window.addEventListener('scroll', function () {
   const currentScrollPos = window.scrollY;
   const header = document.querySelector('.header');
 
