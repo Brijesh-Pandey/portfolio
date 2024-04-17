@@ -1,6 +1,6 @@
 
 if (window.location.hostname !== "brijesh.me") {
-  window.location.href = "https://brijesh.me";
+  // window.location.href = "https://brijesh.me";
 }
 
 // Header Sticky
